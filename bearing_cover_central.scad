@@ -1,6 +1,11 @@
-translate([0,0,20])
-rotate([90,0,0])
-import("bearing_cover_central-ori.stl");
+
+intersection()
+{
+    import("bearing_cover_central-ori.stl");
+    cube([200,20,9]);
+
+}
+
 
 
 //difference()
