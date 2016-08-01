@@ -1,9 +1,7 @@
+    import("z_mount_bottom-ori2.stl");
 
 intersection()
 {
-    import("bearing_cover_central-ori.stl");
-    cube([200,20,9]);
-
 }
 
 
