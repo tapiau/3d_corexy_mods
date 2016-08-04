@@ -1,4 +1,13 @@
 
-//rotate([0,90,0])
-//translate([-81,341,-65])
-import("bed_support-ori6.stl");
+difference()
+{
+    import("bed_support-ori-m1.stl");
+    
+    // space for stepper motor
+    translate([42.5,0,12])
+        cube([42,42,42]);
+
+//    // remove belt clip
+//    translate([42.5,6,0])
+//        cube([42,10,12]);    
+}
