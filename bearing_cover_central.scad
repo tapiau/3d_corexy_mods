@@ -1,4 +1,4 @@
-    import("z_mount_bottom-ori2.stl");
+    import("z_mount_bottom-ori.stl");
 
 intersection()
 {
